@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    color: #080808;
+}
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 0 6%;
+    gap: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #172557;
+    font-size: 28px;
+    font-weight: 500;
+    margin-right: auto;
+}
+
+.logo-icon {
+    font-size: 35px;
+    margin-right: 5px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #151b48;
+    font-size: 14px;
+}
+
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: 30px;
+}
+
+.bag {
+    border: none;
+    background: #f8f8f8;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.shop-btn {
+    width: 100px;
+    height: 42px;
+    border: none;
+    border-radius: 3px;
+    background: #242c62;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.shop-btn:hover {
+    background: #18204d;
+}
+
+.main {
+    width: 88%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    min-height: calc(100vh - 90px);
+}
+
+.main-content {
+    padding-bottom: 30px;
+}
+
+.hero-content h1 {
+    font-size: 52px;
+    line-height: 1.1;
+    font-weight: 800;
+    letter-spacing: -2px;
+    margin-bottom: 25px;
+}
+
+.description {
+    max-width: 500px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 35px;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.learn-btn {
+    background: #f8f8f8;
+    color: #182052;
+}
+
+.shop-now-btn {
+    background: #ffc84d;
+    color: #182052;
+}
+
+
+.social-proof {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    gap: 20px;
+}
+
+.social-proof p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.avatars {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-size: cover;
+    background-position: center;
+}
+
+.avatar-1 {
+    background-image: url(
+        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100"
+    );
+}
+
+.avatar-2 {
+    background-image: url(
+        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100"
+    );
+
+    margin-left: -12px;
+}
+
+.people-count {
+    width: 48px;
+    height: 48px;
+    margin-left: -5px;
+    border-radius: 50%;
+    background: #242c62;
+    color: #ffc84d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: bold;
+    border: 3px solid white;
+}
+
+.image-collage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    height: 670px;
+}
+
+
+.left-images {
+    display: grid;
+    grid-template-rows: 0.75fr 1.35fr 0.85fr;
+    gap: 14px;
+}
+
+.right-images {
+    display: grid;
+    grid-template-rows: 1.35fr 1.65fr;
+    gap: 14px;
+}
+
+.image {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+
+.image-1 {
+    background-image: url(
+        "https://images.pexels.com/photos/7191774/pexels-photo-7191774.jpeg"
+    );
+}
+
+
+.image-2 {
+    background-image: url(
+        "https://images.stockcake.com/public/4/c/f/4cfb2478-fd00-4ee5-b653-794bbc22e481_large/golden-hour-portrait-stockcake.jpg"
+    );
+}
+
+.image-3 {
+    background-image: url(
+        "https://www.anthropics.com/portraitpro/img/page-images/homepage/v22/what-can-it-do-1B.jpg"
+    );
+}
+
+.image-4 {
+    background-image: url(
+        "https://images.pexels.com/photos/29204802/pexels-photo-29204802.jpeg"
+    );
+}
+
+.image-5 {
+    background-image: url(
+        "https://img.magnific.com/free-photo/close-up-upset-american-black-person_23-2148749582.jpg?semt=ais_hybrid&w=740&q=80"
+    );
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
